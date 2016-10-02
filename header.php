@@ -21,7 +21,7 @@
 							<div class="content-container">
 								<div class="col-md-3">
 									<div class="logo-left">
-										<img src="img/logo.png">
+										<a href="index.php"><img src="img/logo.png"></a>
 									</div>
 									
 								</div>
@@ -50,7 +50,7 @@
 						<div class="content-main-menu">
 							<div class="col-md-12" padding-left:0px;>
 								<ul style="padding-left: 0px;">
-									<li><a href="#" class="active">Trang chủ</a></li>
+									<li><a href="index.php" class="active">Trang chủ</a></li>
 									<li><a href="#">Giới thiệu</a></li>
 									<li><a href="#">Sản phẩm</a></li>
 									<li><a href="#">Dịch vụ</a></li>

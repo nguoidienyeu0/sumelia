@@ -1,13 +1,25 @@
-
-
-ul,ol {
+.no-mar-h {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.no-pad-h {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+h5 {
+	color: #ACACAC;
+	text-decoration: line-through;
+}
+ul,ol,li {
 	list-style-type: none;
 	margin-bottom: 0px;
 }
 a:hover, a:focus {
 	text-decoration: none;
 }
-
+body {
+	background: #F5F5F5;
+}
 .top-header {
 	background: black;
 
@@ -126,6 +138,7 @@ h2 {
 .content-headding-right p{
 	background: #F16C52;
 	width: 100%;
+	line-height: 35px;
 	padding: 13px 15px;
 	color: white;
 }
@@ -149,9 +162,9 @@ margin-bottom: -10px;
 	width: 100%;
 }
 .list-right-two {
-	height: 513px;
+	height: auto;
 	width: 100%;
-	background: red;
+	background: #FFFFFF;
 }
 .list-support {
 	height: auto;
@@ -172,30 +185,38 @@ margin-bottom: -10px;
 .list-top-img img {
     margin-top: -10px;
 }
-.left-top-img img {
+/*.left-top-img img {
 	display: inline-block;
-}
+}*/
   .text-img-sanpham p{
   	background: no-repeat;
   	color: black;
-  	margin-top: -30px;
-  	margin-left: 30px;
+  	text-align: center;
   }
   .sanpham {
-    margin-top: -10px;
-    margin-bottom: -10px;
+margin-top: -10px;
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    border-left: 1px solid #E9E9E9;
+    /* margin-bottom: -10px; */
     display: inline-block;
 }
-.text-img-sanpham {
-	 border-right: 1px solid;
-    width: 70%;
+.text-img-sanpham  p{
+	/* border-right: 1px solid #E9E9E9;*/
+    /*width: 70%;*/
+    color: #F76C52;
+}
+.text-img-sanpham a {
+	color: black;
+}
+.text-img-sanpham a:hover {
+	color: #F16C52;
+}
+.text-img-sanpham img:last-child {
+	border-right: none;
 }
 .sanpham-content img {
-    padding: 30px 6px;
-    width: 70%;
-}
-.sanpham-content {
-    	display: inline-block;
+    width: 100%;
 }
 .tuvan p {
 	background: no-repeat;
@@ -205,4 +226,92 @@ margin-bottom: -10px;
 .list-news {
     border: 1px solid #AFAFAF;
     margin-top: 20px;
+}
+
+.sanpham {
+	width: 20% !important;
+}
+.text-cl {
+	text-decoration: line-through;
+	color: #ACACAC;
+}
+.col-text {
+	color: #363636;
+}
+.tuvan p {
+    line-height: 1em;
+    margin-left: 30px;
+ }
+ .tuvan-text p {
+ 	color: #AFAFAF;
+ }
+ .tuvan-name p {
+ 	color: #898989;
+ }
+
+.list-ul-li ul li  {
+display: inline;
+padding: 10px 11px;
+line-height: 61px;
+overflow: hidden;
+}
+.list-ul-li {
+	background: #F16C52;
+	margin-right: 15px;
+}
+.list-ul-li ul li a {
+	color: white;
+}
+.list-ul-li ul li a:hover {
+	color: #FCCF4D;
+}
+.content-col-9 {
+	margin-left: -30px;
+}
+.img-hoatuoi img {
+	width: 90%;
+	margin-left: 10px;
+}
+.hoatuoi-text p {
+    background: white;
+    color: black;
+    margin-top: -20px;
+ }
+ .date-time {
+ 	margin-left: 15px;
+	margin-top: -30px;
+ }
+ .date-time li {
+  	    float: right;
+	    margin-left: 10px;
+    	margin-top: -3px;
+}
+#icon-comment {
+	margin-left: 27px;
+}
+.text-camhoa {
+	text-align: justify;
+	padding: 10px;
+}
+.box-main-online {
+	border: 1px solid #E9E9E9;
+	width: auto;
+	height: auto;
+	padding: 5px;
+	background: #FFFFFF;
+	margin-top: 20px;
+}
+.top-follow ul li {
+	color: #F16C52;
+	text-transform: uppercase;
+	border-bottom: 1px solid #F16C52;
+}
+.top-heading-12 {
+	background: #F16C52;
+	width: 100%;
+	line-height: 60px;
+	margin-top: 30px;
+}
+.top-heading-12 p {
+	color: white;
 }
