@@ -16,7 +16,7 @@
 			?>
 			<div class="top-box-content">
 				<div class="row">
-					<div class="container">
+					<div class="container no-pad-h" style="margin-top: 10px;">
 						<div class="box-content-container">
 							<div class="col-md-3">
 								<div class="list-left-menu">
@@ -77,7 +77,7 @@
 			<!-- box-content2 -->
 			<div class="middle-box-content">
 				<div class="row">
-					<div class="container">
+					<div class="container no-pad-h">
 						<div class="mid-box-content-container">
 							<div class="col-md-3">
 								<div class="content-headding-right">
@@ -173,7 +173,7 @@
 			<!-- end -->
 			<div class="main-box-product-middle" style="margin-top: 40px;">
 				<div class="row">
-					<div class="container">
+					<div class="container no-pad-h">
 						<div class="container-content-main">
 							<div class="col-md-3">
 								<div class="content-headding-right">

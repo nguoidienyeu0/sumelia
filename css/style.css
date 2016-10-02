@@ -68,6 +68,38 @@ footer .info .menu a {
 footer .info .menu a:hover {
 	color: #F16C52;
 }
+.nav-main-menu .menu .item {
+	font-size: 13px;
+	height: 58px;
+	padding: 0 65px 0 0px;
+	font-weight: 600;
+	line-height: 58px;
+	color: #252525;
+	text-transform: uppercase;
+}
+.nav-main-menu .menu .item.active, .nav-main-menu .menu .item:hover{
+	color: #F16C52;
+}
+.header-content {
+	background-color: white;
+	padding-bottom: 20px;
+}
+.header-content .search input {
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	box-shadow: none !important;
+}
+.header-content .search button {
+	border-radius: 3px !important;
+	width: 50px;
+}
+.header-content .btn.cart {
+	height: 45px;
+	margin-top: 50px;
+	margin-left: 158px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 .top-header {
 	background: black;
 
@@ -106,13 +138,6 @@ footer .info .menu a:hover {
 	background: #F16C52;
 	border-color: #F16C52;
 	height: 45px;
-	width: 50px;
-}
-.btn.cart {
-	width: 110px;
-	height: 45px;
-	margin-top: 50px;
-	margin-left: 158px;
 }
 .btn.round {
 	border-radius: 500rem;
@@ -120,7 +145,7 @@ footer .info .menu a:hover {
 
 /*nav*/
 .nav-main-menu {
-	margin-top: 30px;
+	background-color: white;
 	border-top: 1px solid #E1E1E1;
 	border-bottom: 1px solid #E1E1E1;
 }
@@ -130,6 +155,8 @@ footer .info .menu a:hover {
 	padding: 4px 10px;
 }
 .nav-main-menu ul li a {
+	font-weight: bold;
+	font-size: 13px;
 	text-transform: uppercase;
 	color: #252557;	
 	line-height: 40px;
