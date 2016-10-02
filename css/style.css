@@ -20,6 +20,54 @@ a:hover, a:focus {
 body {
 	background: #F5F5F5;
 }
+footer {
+	border-top: 1px solid #E1E1E1;
+	background-color: white;
+	color: #898989;
+}
+footer .row.info {
+	padding: 40px 0px;
+}
+footer .row.copyright {
+	border-top: 1px solid #E1E1E1;
+	padding: 24px 0px;
+}
+footer .row.copyright .author {
+	line-height: 30px;
+}
+footer .row > .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+footer .header {
+	margin: 0 0 15px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #252525;
+}
+footer .payments > a {
+	margin-left: 5px;
+}
+footer .glyphicon:before {
+	color: #F16C52;
+	margin-right: 10px;
+}
+footer .info .more > span {
+	display: table-cell;
+}
+footer .info .menu .item {
+	display: block;
+	line-height: 36px;
+}
+footer .info .menu a {
+	color: #898989;
+}
+footer .info .menu a:hover {
+	color: #F16C52;
+}
 .top-header {
 	background: black;
 
